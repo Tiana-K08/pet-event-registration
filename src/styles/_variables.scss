@@ -1,0 +1,12 @@
+$text-public: #ffffff;
+$bg-main-public: radial-gradient(circle at 10% 10%, #312e81, transparent 40%),
+  radial-gradient(circle at 90% 20%, #7c3aed, transparent 40%), #020617;
+
+$bg-container: rgba(255, 255, 255, 0.12);
+$radius-container: 30px;
+$shadow-container: 0 0 80px rgba(124, 58, 237, 0.35);
+
+$bg-btn-gradient: linear-gradient(90deg, #ff7a18, #7c3aed);
+$radius-btn: 50px;
+$shadow-btn: 0 0 30px rgba(255, 122, 24, 0.6);
+$shadow-btn-hover: 0 0 40px rgba(255, 122, 24, 0.8);

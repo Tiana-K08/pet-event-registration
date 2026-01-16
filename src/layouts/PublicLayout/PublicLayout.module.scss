@@ -1,0 +1,8 @@
+@use '../../styles/variables' as *;
+
+.main {
+  min-height: 100vh;
+  padding: 0 6vw;
+  background: $bg-main-public;
+  color: $text-public;
+}
