@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import ButtonLink from '../ui/ButtonLink/ButtonLink.jsx';
 
 import styles from './Hero.module.scss';
 
@@ -21,9 +21,7 @@ export default function Hero() {
             <p>&#128187; Онлайн · Google Meet</p>
           </div>
         </div>
-        <Link to="/registration" className={styles.button}>
-          Забронювати місце
-        </Link>
+        <ButtonLink to="/registration" label="Забронювати місце" />
       </div>
     </section>
   );

@@ -1,0 +1,15 @@
+@use '../../../styles/variables' as *;
+
+.button {
+  padding: 14px 28px;
+  background: $bg-btn-gradient;
+  border-radius: $radius-btn;
+  box-shadow: $shadow-btn;
+  font-weight: 600;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: $shadow-btn-hover;
+  }
+}
